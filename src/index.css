@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    background-image: url('../public/viktor-talashuk-05HLFQu8bFw-unsplash.jpg');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+  .trans{
+    background: rgba(255,255,255,.4);
+    box-shadow: 0 5px 15px rgba(0,0,0,.6);
+  }

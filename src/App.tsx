@@ -20,7 +20,7 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className="App back trans h-[95vh] text-xl mx-9">
       <div className='w-1/3 m-5'>
         <FileInput
           rightSection={icon}
@@ -52,8 +52,8 @@ function App() {
         />
       </div>
 
-      <Table.ScrollContainer minWidth={500} m="5%">
-        <Table striped>
+      <Table.ScrollContainer type='native' minWidth={300} m="5%">
+        <Table striped highlightOnHover>
           <Table.Thead>
             <Table.Tr>
               <Table.Th>File Name</Table.Th>
